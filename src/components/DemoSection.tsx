@@ -10,12 +10,31 @@ const sampleTracks = [
   { id: "3", title: "Heat Waves", artist: "Glass Animals", album: "Dreamland", imageUrl: "https://images.unsplash.com/photo-1571330735066-03aaa9429d89?w=100&h=100&fit=crop" },
   { id: "4", title: "good 4 u", artist: "Olivia Rodrigo", album: "SOUR", imageUrl: "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=100&h=100&fit=crop" },
   { id: "5", title: "Stay", artist: "Kid LAROI & Justin Bieber", album: "F*CK LOVE 3", imageUrl: "https://images.unsplash.com/photo-1459749411175-04bf5292ceea?w=100&h=100&fit=crop" },
+  { id: "6", title: "Bohemian Rhapsody", artist: "Queen", album: "A Night at the Opera", imageUrl: "https://images.unsplash.com/photo-1511735111819-9a3f7709049c?w=100&h=100&fit=crop" },
+  { id: "7", title: "Shape of You", artist: "Ed Sheeran", album: "÷", imageUrl: "https://images.unsplash.com/photo-1504898770365-14faca6a7320?w=100&h=100&fit=crop" },
+  { id: "8", title: "Bad Guy", artist: "Billie Eilish", album: "When We All Fall Asleep", imageUrl: "https://images.unsplash.com/photo-1498038432885-c6f3f1b912ee?w=100&h=100&fit=crop" },
+  { id: "9", title: "Uptown Funk", artist: "Bruno Mars", album: "Uptown Special", imageUrl: "https://images.unsplash.com/photo-1485579149621-3123dd979885?w=100&h=100&fit=crop" },
+  { id: "10", title: "Someone Like You", artist: "Adele", album: "21", imageUrl: "https://images.unsplash.com/photo-1446057032654-9d8885db76c6?w=100&h=100&fit=crop" },
+  { id: "11", title: "Starboy", artist: "The Weeknd", album: "Starboy", imageUrl: "https://images.unsplash.com/photo-1506157786151-b8491531f063?w=100&h=100&fit=crop" },
+  { id: "12", title: "Thunder", artist: "Imagine Dragons", album: "Evolve", imageUrl: "https://images.unsplash.com/photo-1465847899084-d164df4dedc6?w=100&h=100&fit=crop" },
+  { id: "13", title: "Shallow", artist: "Lady Gaga & Bradley Cooper", album: "A Star Is Born", imageUrl: "https://images.unsplash.com/photo-1516450360452-9312f5e86fc7?w=100&h=100&fit=crop" },
+  { id: "14", title: "Circles", artist: "Post Malone", album: "Hollywood's Bleeding", imageUrl: "https://images.unsplash.com/photo-1526478806334-5fd488fcaabc?w=100&h=100&fit=crop" },
+  { id: "15", title: "Happier", artist: "Marshmello & Bastille", album: "Happier", imageUrl: "https://images.unsplash.com/photo-1508700115892-45ecd05ae2ad?w=100&h=100&fit=crop" },
 ];
 
 const recommendedTracks = [
   { id: "r1", title: "Save Your Tears", artist: "The Weeknd", album: "After Hours", imageUrl: "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?w=100&h=100&fit=crop" },
   { id: "r2", title: "Don't Start Now", artist: "Dua Lipa", album: "Future Nostalgia", imageUrl: "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=100&h=100&fit=crop" },
   { id: "r3", title: "Watermelon Sugar", artist: "Harry Styles", album: "Fine Line", imageUrl: "https://images.unsplash.com/photo-1514525253161-7a46d19cd819?w=100&h=100&fit=crop" },
+  { id: "r4", title: "Dynamite", artist: "BTS", album: "BE", imageUrl: "https://images.unsplash.com/photo-1501612780327-45045538702b?w=100&h=100&fit=crop" },
+  { id: "r5", title: "Peaches", artist: "Justin Bieber", album: "Justice", imageUrl: "https://images.unsplash.com/photo-1484876065684-b683cf17d505?w=100&h=100&fit=crop" },
+  { id: "r6", title: "drivers license", artist: "Olivia Rodrigo", album: "SOUR", imageUrl: "https://images.unsplash.com/photo-1518609878373-06d740f60d8b?w=100&h=100&fit=crop" },
+  { id: "r7", title: "Montero", artist: "Lil Nas X", album: "Montero", imageUrl: "https://images.unsplash.com/photo-1524368535928-5b5e00ddc76b?w=100&h=100&fit=crop" },
+  { id: "r8", title: "Kiss Me More", artist: "Doja Cat ft. SZA", album: "Planet Her", imageUrl: "https://images.unsplash.com/photo-1494232410401-ad00d5433cfa?w=100&h=100&fit=crop" },
+  { id: "r9", title: "Butter", artist: "BTS", album: "Butter", imageUrl: "https://images.unsplash.com/photo-1598387993281-cecf8b71a8f8?w=100&h=100&fit=crop" },
+  { id: "r10", title: "Leave The Door Open", artist: "Silk Sonic", album: "An Evening with Silk Sonic", imageUrl: "https://images.unsplash.com/photo-1511192336575-5a79af67a629?w=100&h=100&fit=crop" },
+  { id: "r11", title: "Easy On Me", artist: "Adele", album: "30", imageUrl: "https://images.unsplash.com/photo-1487180144351-b8472da7d491?w=100&h=100&fit=crop" },
+  { id: "r12", title: "As It Was", artist: "Harry Styles", album: "Harry's House", imageUrl: "https://images.unsplash.com/photo-1460723237483-7a6dc9d0b212?w=100&h=100&fit=crop" },
 ];
 
 export const DemoSection = () => {
